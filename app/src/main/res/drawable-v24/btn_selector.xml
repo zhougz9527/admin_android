@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">// 手指松开
+        <shape>
+            <corners android:radius="8dp"/>
+            <solid android:color="#009688"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true"> // 手指未松开
+        <shape>
+            <corners android:radius="8dp"/>
+            <solid android:color="#00796b"/>
+        </shape>
+    </item>
+</selector>
